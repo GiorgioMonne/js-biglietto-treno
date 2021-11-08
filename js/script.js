@@ -49,5 +49,15 @@ if(isNaN(età) || isNaN(Kmt)){
     document.getElementById('etaPasseggero').innerHTML = etaPasseggero;
     console.log(etaPasseggero);
 
+    // ESEMPIO PIù EFFICENTE DI CRISTINA
 
+// if(età < 18){
+//     prezzoFinal *= 0.8;
+//     console.log(prezzoFinal);
+// }else if(età >= ){
+//     prezzoFinal *= 0.6;
+//     console.log(prezzoFinal);
+// }else{
+//     prezzoFinal = prezzoSolKm;
+// }
     
